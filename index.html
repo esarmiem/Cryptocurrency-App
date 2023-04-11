@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batatabit</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <img src="/assets/img/logo.svg" alt="" />
@@ -25,8 +30,10 @@
             <figure class="backgroundImg"></figure>
             <div class="main-echange-container--title">
                 <h2>Visibilizamos todas las tasas de cambio.</h2>
-                <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
+                <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.
+                </p>
             </div>
+            <section class="all-tables-container">
             <section class="main-tables-container">
                 <div class="main-currency-table">
                     <p class="currency-table--title">Monedas</p>
@@ -51,7 +58,9 @@
                         </table>
                     </div>
                     <div class="currency-table--date">
-                        <p><b>Actualizado el:</b> <script> document.write(new Date().toLocaleString());</script></p>
+                        <p><b>Actualizado el:</b>
+                            <script> document.write(new Date().toLocaleString());</script>
+                        </p>
                     </div>
                 </div>
             </section>
@@ -79,10 +88,13 @@
                         </table>
                     </div>
                     <div class="currency-table--date-2">
-                        <p><b>Actualizado el:</b> <script> document.write(new Date().toLocaleString());</script></p>
+                        <p><b>Actualizado el:</b>
+                            <script> document.write(new Date().toLocaleString());</script>
+                        </p>
                     </div>
                 </div>
             </section>
+        </section>
         </section>
 
         <section class="main-produc-detail">
@@ -95,22 +107,26 @@
                 <article class="product-detail--card">
                     <span class="icon-card clock"></span>
                     <p class="product--card-title">Tiempo real</p>
-                    <p class="product--card-body">Nuestra API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
+                    <p class="product--card-body">Nuestra API toma información minuto a minuto sobre las tasas que más
+                        determinan el comportamiento.</p>
                 </article>
                 <article class="product-detail--card">
                     <span class="icon-card eye"></span>
                     <p class="product--card-title">No hay tasas escondidas</p>
-                    <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                    <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el
+                        costo real de lo que estás adquiriendo.</p>
                 </article>
                 <article class="product-detail--card">
                     <span class="icon-card dollar"></span>
                     <p class="product--card-title">Compara monedas</p>
-                    <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                    <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el
+                        costo real de lo que estás adquiriendo.</p>
                 </article>
                 <article class="product-detail--card">
                     <span class="icon-card circle"></span>
                     <p class="product--card-title">Información confiable</p>
-                    <p class="product--card-body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+                    <p class="product--card-body">Nuestras fuentes están 100% verificadas y continuamos auditando su
+                        contenido mientras se actualizan.</p>
                 </article>
             </section>
         </section>
@@ -144,13 +160,27 @@
                     <div class="plans-info-container">
                         <h3 class="plans-card--title">lifetime alpha</h3>
                         <p class="plans-card--price"><sup>$ </sup>129</p>
-                        <p class="plans-card--saving">Ahorro infinito (50 cupos)</p>
+                        <p class="plans-card--saving">Ahorro infinito (50 cupos) beneficios adicionales</p>
                         <button class="plans-card--ca">Escoger este <span></span></button>
                     </div>
                 </article>
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <figure>
+                <img src="./assets/img/logo-footer.svg" alt="Logo Batatabit">
+            </figure>
+        </section>
+    </footer>
 </body>
+
 </html>

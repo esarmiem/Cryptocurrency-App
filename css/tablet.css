@@ -1,0 +1,27 @@
+/* estilos seccion tablas */
+.all-tables-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 200px;
+  }
+.all-tables-container .currency-table--title-2 {
+    margin-top: 0px;
+}
+/* estilos seccion tablas */
+/* estilos seccion planes */
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans-container--slider {
+    justify-content: center;
+}
+/* estilos seccion planes */
+
+/* html{
+    font-size: 80%; (probar...)
+} */
